@@ -1,0 +1,11 @@
+<a href="https://facebook.com" target="_blank">
+    <img src="images/facebook.png" alt="fb icon">
+</a>
+<link rel="stylesheet" href="styles/style.css">                      
+<body>
+<div id="content"> --> add id selector for "content"
+<header>
+. . . 
+</footer>
+</div> --> closing div tag for id="content"
+</body>
