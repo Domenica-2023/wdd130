@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+  }
+
+  nav {
+    background-color: rgb(200, 139, 200);
+    padding: 25px;
+  }
+
+  a {
+    color: rgb(0, 0, 0);
+    margin: 40px;
+    padding: 25px;
+  }
+
+  h1 {
+    color: rgb(255, 242, 0);
+    margin: 50px 0;
+  }
+  img {
+    width: 800px;
+    border: 4px solid rgb(200, 139, 200);
+    
+  }
+  p {
+    padding: 10px;
+  }
+  footer {
+    background-color: rgb(127, 137, 240);
+    color: white;
+    padding: 25px;
+  }

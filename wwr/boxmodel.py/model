@@ -20,6 +20,16 @@
     </main>
     <footer>
         <p>My Web Page 20XX &copy</p>
+    footer {
+        background-color: steelblue;
+        color: white;
+    }
+
+    footer p {
+        padding: 25px;
+    }
+
+    
     </footer>
 </body>
 </html>
