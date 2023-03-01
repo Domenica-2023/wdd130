@@ -5,9 +5,9 @@
     margin: 0 auto;
 }
 
-home-grid {
+.home-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(10, 1fr);
 }
 nav a { 
     text-decoration: none;
@@ -53,11 +53,12 @@ main section {
     height: 725px;
     grid-column: 1/11;
     grid-row: 4/9;
+    background-color: white;
 }
 
 body {
     background-color: #776258; 
-    font-family: ´Kaushan Script´,  sans-serif;
+    font-family: "Kaushan Script",  sans-serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -96,6 +97,7 @@ nav a:hover {
 
 .msg {
     background-color: #776258;
+    color: white;
     line-height: 1.5em;
     padding: 35px;
     grid-column: 6/10;
@@ -233,11 +235,70 @@ nav {
 }
 
 .mountains {
-    width: 100%;w
+    width: 100%;
     grid-column: 2/7;
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
 }
+
+
+
+
+
+.rivers-grid {
+    display: grid; 
+    }
+
+#FAQ-msg h1 { 
+    text-align: center;
+    color: #ffffff; 
+    font-family: "Kaushan Script", sans-serif;}
+
+#FAQ-main-image {
+    width: 100%;
+}
+
+h2 {
+    color: #ffffff;    
+    font-family: "Courgette family", sans-serif;
+    padding-bottom: 10px;
+    padding-top: 15px;} 
+
+p, p1, p2 {
+    color: #ffffff;    
+    font-family: "Courgette family", sans-serif;
+    font-size: 0.8em;
+    padding-bottom: 20px;
+    padding-top: 20px;  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
