@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,300&family=Work+Sans:ital@1&display=swap%27')'';
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,300&family=Work+Sans:ital@1&display=swap%27');
 
 
 #content {
@@ -6,7 +6,9 @@
     margin: 0 auto;
 
 }
-
+header img{
+    width: 30%;
+}
 .home-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -45,13 +47,13 @@ nav a {
 
 
 .logo {
-        width: 80px;
+        width: 50px;
     }
 
 
 body {
     background-color: #2A9D8F; 
-    font-family: "IBM Plex Sans",  sans-serif;
+    font-family: "IBM Plex Sans";
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -71,7 +73,7 @@ h2 {
     }
 footer {
      background-color: #E9C46A; 
-    color: #2A9D8F;
+    color: #264653;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
@@ -87,8 +89,31 @@ footer p a:hover {
     text-decoration: underline;}
 
 footer a {
-    color: #F4A261;
+    color: #264653;
     text-decoration: none;}
 
 footer a:hover {
     color: #264653}
+
+
+
+
+
+
+
+#FAQ-msg {
+text-align: center;
+color: #F4A261;
+}
+
+#faq-main-img {
+    width: 80%;}
+
+.faq-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr; 
+}
+
+.question-1 h2, .question-2 h2 { 
+    text-align: center; }
