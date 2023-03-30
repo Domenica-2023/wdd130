@@ -201,3 +201,60 @@ color: #F4A261;
   from {opacity: .4}
   to {opacity: 1}
 }
+
+
+
+
+
+
+
+
+
+
+.appointments-grid{
+
+}
+
+.group{
+  font-family: "IBM Plex Sans",  sans-serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+}
+
+.one-on-one{
+  font-family: "IBM Plex Sans",  sans-serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+}
+
+h2, p{
+  font-family: "IBM Plex Sans",  sans-serif;
+  font-size: 22px;
+  padding-top: 100px
+}
+
+.how_it_works{
+  font-family: "IBM Plex Sans",  sans-serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+}
+
+.in_person{
+  font-family: "IBM Plex Sans",  sans-serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+}
+
+.appointments-img{
+  width: 100%;
+}
+
+.title-appointments{
+  text-align: center; 
+  color: #F4A261;
+  padding: 35px;
+}

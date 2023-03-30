@@ -1,0 +1,6 @@
+def run(self):
+while self. program_running:
+while self. running:
+mouse. click(self. buttonDirection)
+time. sleep(self. delayTime)
+time. sleep(0.1)
