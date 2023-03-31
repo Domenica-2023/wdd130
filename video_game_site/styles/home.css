@@ -18,7 +18,7 @@ header img{
 nav a { 
     text-decoration: none;
     text-align: center; 
-    color: #264653;
+    color: #263d53;
     padding: 35px;}
 
  nav {
@@ -40,9 +40,10 @@ nav a {
 
 
 .icon {
-        width: 500px;
-        padding-top: 10px;
-        justify-content: space-around;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
     }
 
 
@@ -209,11 +210,6 @@ color: #F4A261;
 
 
 
-
-
-.appointments-grid{
-
-}
 
 .group{
   font-family: "IBM Plex Sans",  sans-serif;
